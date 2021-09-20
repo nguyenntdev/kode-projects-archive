@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quicknote</title>
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="topnav text-gradient" id="myTopnav">
+        <a href="index.html" class="branding">Kode Mini Tools</a>
+        <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="create.html"><i class="far fa-plus-square"></i> Create a note</a>
+        <a href="paint.html"><i class="fas fa-palette"></i> Make a painting</a>
+        <a href="https://kodelang.dev"><i class="fas fa-globe"></i> Kode Space</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h1 style="font-size: 3em; padding: 0.7em; text-align: center; color: white;"><i class="far fa-plus-square"></i> Create a note </h1>
+
+    <div class="note">
+        <div class="form-group">
+            <label class="title" for="title">Title </label>
+            <input id="title" type="text" class="form-control" required>
+        </div><br>
+        <label class="title" for="content"><b>Note content</b></label><br><br>
+        <textarea id="content" class="form-control"></textarea>
+    </div>
+
+    <!--Dialog block-->
+
+    <!--Dialog end-->
+    </div>
+
+</body>
+
+</html>
