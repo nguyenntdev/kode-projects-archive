@@ -3,7 +3,7 @@ var headerContent = `
 
 <div class="topnav nav-gradient" id="myTopnav">
 <a class="navbar-brand brand" href="#">
-    <img src="/kode-reborn/assets/img/logo-kode.png" width="30" height="30" class="d-inline-block align-top brand-image" alt="">
+    <img src="/assets/img/logo-kode.png" width="30" height="30" class="d-inline-block align-top brand-image" alt="">
     Kode Archive
   </a>  <a href="#home" ><i class="fas fa-home"></i>  Homepage</a>
   <a href="https://kodelang.dev"><i class="fas fa-globe-asia"></i>  Main website</a>
